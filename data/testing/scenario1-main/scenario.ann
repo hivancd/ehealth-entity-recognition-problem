@@ -1,0 +1,1081 @@
+T1	Concept 4 18	adenoidectomía
+T2	Concept 26 33	cirugía
+T3	Action 39 47	extirpar
+T4	Concept 52 61	adenoides
+R0	subject Arg1:T3 Arg2:T2
+R1	target Arg1:T3 Arg2:T4
+*	same-as T1 T3
+T5	Concept 66 72	herpes
+T6	Concept 73 79	labial
+T7	Action 86 94	aparecer
+T8	Predicate 95 100	fuera
+T9	Concept 107 111	boca
+T10	Concept 121 127	labios
+T11	Predicate 131 140	alrededor
+R2	arg Arg1:T8 Arg2:T9
+R3	in-place Arg1:T7 Arg2:T8
+R4	arg Arg1:T11 Arg2:T10
+R5	in-place Arg1:T7 Arg2:T10
+R6	in-place Arg1:T7 Arg2:T11
+R7	subject Arg1:T7 Arg2:T5
+R8	in-context Arg1:T5 Arg2:T6
+T12	Concept 149 156	mujeres
+T13	Concept 162 169;170 172;173 185	pruebas de Papanicolaou
+T14	Action 193 201	detectar
+T15	Concept 202 209	cambios
+T16	Concept 216 222;223 230	cuello uterino
+T17	Action 242 253	convertirse
+T18	Concept 257 263	cáncer
+R9	subject Arg1:T14 Arg2:T13
+R10	in-place Arg1:T15 Arg2:T16
+R11	subject Arg1:T17 Arg2:T15
+R12	target Arg1:T17 Arg2:T18
+R13	target Arg1:T14 Arg2:T17
+R14	in-place Arg1:T13 Arg2:T12
+T19	Action 265 270	Bajar
+T20	Concept 274 278	peso
+T21	Action 280 287	ingerir
+T22	Concept 288 297	alimentos
+T23	Concept 298 308	saludables
+T24	Action 310 320	mantenerse
+T25	Concept 321 327	activo
+T26	Action 333 338	fumar
+T27	Action 346 352	ayudar
+T28	Action 355 362	mejorar
+T29	Concept 366 376;377 385	enfermedad vascular
+R15	target Arg1:T19 Arg2:T20
+R16	in-context Arg1:T24 Arg2:T25
+R17	subject Arg1:T27 Arg2:T26
+R18	subject Arg1:T27 Arg2:T24
+R19	subject Arg1:T27 Arg2:T21
+R20	subject Arg1:T27 Arg2:T19
+R21	target Arg1:T27 Arg2:T28
+R22	target Arg1:T28 Arg2:T29
+R23	target Arg1:T21 Arg2:T22
+R24	in-context Arg1:T22 Arg2:T23
+T30	Concept 391 402	infecciones
+T31	Action 403 410	ocurren
+T32	Concept 427 435	invierno
+T33	Concept 441 450	primavera
+R25	in-time Arg1:T31 Arg2:T32
+R26	subject Arg1:T31 Arg2:T30
+R27	in-place Arg1:T31 Arg2:T33
+T34	Concept 456 463	oxiuros
+T35	Action 467 475	propagan
+T36	Concept 480 491	rápidamente
+R28	in-context Arg1:T35 Arg2:T36
+R29	target Arg1:T35 Arg2:T34
+T37	Concept 496 504	problema
+T38	Concept 521 530;531 540;541 545	deterioro cognitivo leve
+T39	Predicate 553 556	más
+T40	Concept 557 566;567 569;570 577	problemas de memoria
+T41	Concept 586 594	normales
+T42	Concept 598 606	personas
+R30	is-a Arg1:T38 Arg2:T37
+R31	causes Arg1:T38 Arg2:T39
+R32	in-place Arg1:T40 Arg2:T42
+R33	in-context Arg1:T40 Arg2:T41
+R34	domain Arg1:T39 Arg2:T40
+R35	arg Arg1:T39 Arg2:T40
+T43	Predicate 628 632	tipo
+T44	Concept 636 642;643 645;646 654;655 662	examen de medicina nuclear
+T45	Concept 669 680;681 683;687 695	gammagrafía de tiroides
+R36	arg Arg1:T43 Arg2:T44
+R37	is-a Arg1:T45 Arg2:T43
+T46	Concept 701 710;711 719	conmoción cerebral
+T47	Predicate 726 730	tipo
+T48	Concept 734 740	lesión
+T49	Concept 741 749	cerebral
+R38	in-context Arg1:T48 Arg2:T49
+R39	arg Arg1:T47 Arg2:T48
+R40	is-a Arg1:T46 Arg2:T47
+T50	Action 751 759	Mantener
+T51	Concept 763 767	peso
+T52	Concept 768 777	saludable
+T53	Concept 785 795	importante
+R41	has-property Arg1:T50 Arg2:T53
+R42	target Arg1:T50 Arg2:T51
+R43	in-context Arg1:T51 Arg2:T52
+T54	Concept 801 809	síntomas
+T55	Concept 819 827	malestar
+T56	Concept 829 835	fiebre
+T57	Action 837 842	dolor
+T58	Concept 846 851	pecho
+T59	Concept 854 857	tos
+T60	Concept 858 862	seca
+R44	in-place Arg1:T57 Arg2:T58
+R45	in-context Arg1:T59 Arg2:T60
+R46	is-a Arg1:T55 Arg2:T54
+R47	is-a Arg1:T56 Arg2:T54
+R48	is-a Arg1:T57 Arg2:T54
+R49	is-a Arg1:T59 Arg2:T54
+T61	Concept 868 875	riñones
+T62	Concept 880 887	órganos
+T63	Predicate 892 898	tamaño
+T64	Concept 905 909	puño
+T65	Concept 916 920	mano
+T66	Action 921 929	ubicados
+T67	Predicate 932 936	cada
+T68	Predicate 937 941	lado
+T69	Concept 948 955	columna
+T70	Predicate 961 967	arriba
+T71	Concept 974 981	cintura
+R50	is-a Arg1:T61 Arg2:T62
+R51	in-place Arg1:T64 Arg2:T65
+R52	arg Arg1:T63 Arg2:T64
+R53	domain Arg1:T67 Arg2:T68
+R54	domain Arg1:T68 Arg2:T69
+R55	domain Arg1:T70 Arg2:T71
+R56	arg Arg1:T63 Arg2:T61
+*	same-as T63 T63
+R57	subject Arg1:T66 Arg2:T61
+R58	in-place Arg1:T66 Arg2:T67
+R59	in-place Arg1:T66 Arg2:T70
+T72	Concept 989 997;998 1006	problema genético
+T73	Action 1011 1017	afecta
+T74	Predicate 1034 1039	entre
+T75	Predicate 1040 1043;1044 1046;1047 1053	una en 15,000
+T76	Predicate 1056 1059;1060 1062;1063 1069	una en 40,000
+T77	Concept 1070 1078	personas
+R60	arg Arg1:T74 Arg2:T75
+R61	arg Arg1:T74 Arg2:T76
+R62	subject Arg1:T73 Arg2:T72
+R63	target Arg1:T73 Arg2:T74
+R64	domain Arg1:T75 Arg2:T77
+R65	domain Arg1:T76 Arg2:T77
+T78	Action 1083 1091	ligadura
+T79	Concept 1095 1102	trompas
+T80	Action 1109 1119	revertirse
+T81	Concept 1129 1136	siempre
+R66	target Arg1:T78 Arg2:T79
+R67	target Arg1:T80 Arg2:T78
+R68	in-time Arg1:T80 Arg2:T81
+T82	Action 1138 1145	Produce
+T83	Concept 1146 1154	hormonas
+T84	Action 1159 1165	ayudan
+T85	Concept 1169 1175	cuerpo
+T86	Action 1178 1187	funcionar
+T87	Concept 1188 1199	normalmente
+R69	subject Arg1:T86 Arg2:T85
+R70	subject Arg1:T84 Arg2:T83
+R71	target Arg1:T84 Arg2:T86
+R72	target Arg1:T86 Arg2:T85
+R73	target Arg1:T82 Arg2:T84
+R74	in-context Arg1:T86 Arg2:T87
+T88	Concept 1204 1218	histoplasmosis
+T89	Concept 1231 1235	leve
+T90	Concept 1242 1250	síntomas
+R75	has-property Arg1:T88 Arg2:T89
+R76	has-property Arg1:T88 Arg2:T90
+T91	Action 1255 1265	diseminada
+T92	Concept 1270 1278	insectos
+T93	Concept 1279 1290	hematófagos
+T94	Action 1299 1308	alimentan
+T95	Concept 1312 1318	sangre
+T96	Action 1320 1330	infectados
+T97	Concept 1347 1356	vinchucas
+T98	Concept 1361 1368;1369 1375	chinche gaucha
+T99	Concept 1379 1386;1387 1395	chinche besucona
+T100	Concept 1399 1408	chupadora
+T101	Concept 1412 1420	voladora
+T102	Concept 1424 1433	barbeiros
+T103	Concept 1437 1443	chipos
+R77	target Arg1:T94 Arg2:T95
+R78	in-context Arg1:T92 Arg2:T93
+*	same-as T97 T98
+*	same-as T97 T99
+*	same-as T97 T100
+*	same-as T97 T101
+*	same-as T97 T102
+*	same-as T97 T103
+*	same-as T97 T92
+R79	subject Arg1:T94 Arg2:T92
+R80	target Arg1:T96 Arg2:T92
+R81	subject Arg1:T91 Arg2:T96
+T104	Concept 1451 1463	tratamientos
+T105	Concept 1482 1489	cirugía
+T106	Action 1495 1503	extirpar
+T107	Concept 1507 1512	tumor
+T108	Concept 1514 1523	medicinas
+T109	Concept 1526 1538	radioterapia
+R82	subject Arg1:T106 Arg2:T105
+R83	target Arg1:T106 Arg2:T107
+R84	is-a Arg1:T108 Arg2:T104
+R85	is-a Arg1:T109 Arg2:T104
+R86	is-a Arg1:T106 Arg2:T104
+T110	Concept 1565 1569	bazo
+T111	Action 1576 1586	inflamarse
+R87	target Arg1:T111 Arg2:T110
+T112	Action 1592 1602	torceduras
+T113	Concept 1607 1614	tobillo
+T114	Concept 1620 1626	muñeca
+T115	Concept 1631 1638	comunes
+R88	target Arg1:T112 Arg2:T113
+R89	target Arg1:T112 Arg2:T114
+R90	has-property Arg1:T112 Arg2:T115
+T116	Concept 1643 1653	importante
+T117	Action 1654 1661	iniciar
+T118	Concept 1665 1676	tratamiento
+T119	Concept 1677 1685	temprano
+T120	Action 1693 1700	esperar
+T121	Predicate 1722 1728	riesgo
+T122	Concept 1732 1744	infertilidad
+R91	target Arg1:T117 Arg2:T118
+R92	in-time Arg1:T117 Arg2:T119
+R93	has-property Arg1:T117 Arg2:T116
+R94	arg Arg1:T121 Arg2:T122
+R95	causes Arg1:T120 Arg2:T121
+R96	entails Arg1:T121 Arg2:T117
+R97	target Arg1:T120 Arg2:T117
+T123	Concept 1749 1755	vejiga
+T124	Action 1759 1766	expande
+T125	Action 1779 1784	llena
+T126	Action 1799 1806	pequeña
+T127	Action 1819 1824	vacía
+R98	subject Arg1:T126 Arg2:T123
+R99	target Arg1:T125 Arg2:T123
+R100	subject Arg1:T126 Arg2:T123
+R101	target Arg1:T127 Arg2:T123
+R102	entails Arg1:T126 Arg2:T125
+R103	entails Arg1:T126 Arg2:T127
+T128	Concept 1830 1837	efectos
+T129	Concept 1842 1848;1849 1857	ataque cerebral
+T130	Action 1858 1866	dependen
+T131	Predicate 1871 1875	área
+T132	Concept 1880 1887	cerebro
+T133	Concept 1888 1894	dañada
+R104	domain Arg1:T131 Arg2:T132
+R105	subject Arg1:T130 Arg2:T128
+R106	target Arg1:T130 Arg2:T131
+R107	arg Arg1:T131 Arg2:T133
+R108	in-context Arg1:T128 Arg2:T129
+T134	Concept 1899 1905;1906 1908;1909 1911;1912 1920;1921 1928	cáncer de la glándula salival
+T135	Predicate 1935 1939	tipo
+T136	Concept 1943 1949	cáncer
+T137	Concept 1953 1959	cabeza
+T138	Concept 1962 1968	cuello
+R109	arg Arg1:T135 Arg2:T136
+R110	in-place Arg1:T136 Arg2:T137
+R111	in-place Arg1:T136 Arg2:T138
+R112	is-a Arg1:T134 Arg2:T135
+T139	Concept 1986 1995	problemas
+T140	Action 2013 2023	alteración
+T141	Concept 2030 2036	marcha
+T142	Concept 2051 2060	problemas
+T143	Action 2066 2073	caminar
+R113	in-context Arg1:T143 Arg2:T142
+R114	target Arg1:T140 Arg2:T141
+R115	causes Arg1:T139 Arg2:T140
+R116	causes Arg1:T140 Arg2:T143
+T144	Concept 2078 2087	psoriasis
+T145	Action 2094 2101	ocurrir
+T146	Concept 2112 2119	adultos
+R117	subject Arg1:T145 Arg2:T144
+R118	target Arg1:T145 Arg2:T146
+T147	Concept 2124 2129	gente
+T148	Action 2134 2140	padece
+T149	Concept 2144 2149	apnea
+T150	Action 2156 2162	roncar
+T151	Concept 2167 2173	fuerte
+R119	subject Arg1:T148 Arg2:T147
+R120	target Arg1:T148 Arg2:T149
+R121	subject Arg1:T150 Arg2:T148
+R122	in-context Arg1:T150 Arg2:T151
+T152	Concept 2187 2196;2197 2206	deterioro cognitivo
+T153	Concept 2207 2211	leve
+T154	Predicate 2226 2231	señal
+T155	Concept 2232 2240	temprana
+T156	Concept 2247 2257;2258 2260;2261 2270	enfermedad de Alzheimer
+T157	Concept 2279 2289	importante
+T158	Action 2290 2293	ver
+T159	Concept 2299 2308	proveedor
+T160	Concept 2312 2320;2321 2323;2324 2329	cuidados de salud
+T161	Predicate 2330 2334	cada
+T162	Predicate 2335 2336;2337 2338;2339 2341	6 a 12
+T163	Concept 2342 2347	meses
+R123	in-context Arg1:T152 Arg2:T153
+R124	in-context Arg1:T154 Arg2:T155
+R125	arg Arg1:T154 Arg2:T156
+R126	is-a Arg1:T152 Arg2:T154
+R127	has-property Arg1:T158 Arg2:T157
+R128	domain Arg1:T162 Arg2:T163
+R129	arg Arg1:T161 Arg2:T162
+R130	in-context Arg1:T159 Arg2:T160
+R131	target Arg1:T158 Arg2:T159
+R132	entails Arg1:T152 Arg2:T158
+R133	in-time Arg1:T158 Arg2:T161
+T164	Predicate 2353 2363	trastornos
+T165	Concept 2368 2374;2375 2377;2378 2383	estado de ánimo
+T166	Action 2391 2402	incrementar
+T167	Predicate 2407 2414	riesgos
+T168	Concept 2418 2430	enfermedades
+T169	Concept 2435 2442	corazón
+T170	Concept 2444 2452	diabetes
+T171	Concept 2461 2473	enfermedades
+T172	Concept 2481 2488	persona
+R134	arg Arg1:T164 Arg2:T165
+R135	subject Arg1:T166 Arg2:T164
+R136	target Arg1:T166 Arg2:T167
+R137	in-context Arg1:T168 Arg2:T169
+R138	arg Arg1:T167 Arg2:T168
+R139	is-a Arg1:T170 Arg2:T171
+R140	in-context Arg1:T166 Arg2:T172
+R141	arg Arg1:T167 Arg2:T170
+R142	arg Arg1:T167 Arg2:T171
+T173	Concept 2505 2512	comunes
+T174	Action 2516 2524	lesiones
+T175	Concept 2531 2537	cabeza
+T176	Action 2546 2552	caídas
+T177	Action 2554 2564	accidentes
+T178	Concept 2568 2576	tránsito
+T179	Concept 2578 2587	violencia
+T180	Concept 2590 2598	deportes
+R143	in-context Arg1:T177 Arg2:T178
+R144	target Arg1:T174 Arg2:T175
+R145	in-context Arg1:T174 Arg2:T173
+R146	causes Arg1:T176 Arg2:T174
+R147	causes Arg1:T177 Arg2:T174
+R148	causes Arg1:T179 Arg2:T174
+R149	causes Arg1:T180 Arg2:T174
+T181	Concept 2603 2609	angina
+T182	Concept 2616 2623	síntoma
+T183	Concept 2630 2640;2641 2643;2644 2647;2648 2656;2657 2667	enfermedad de las arterias coronarias
+T184	Concept 2672 2682	enfermedad
+T185	Concept 2683 2691	cardiaca
+T186	Predicate 2692 2695	más
+T187	Concept 2696 2701	común
+R150	in-context Arg1:T182 Arg2:T183
+R151	is-a Arg1:T181 Arg2:T182
+R152	in-context Arg1:T184 Arg2:T185
+R153	is-a Arg1:T183 Arg2:T184
+R154	domain Arg1:T186 Arg2:T184
+R155	arg Arg1:T186 Arg2:T187
+*	same-as T183 T186
+T188	Concept 2706 2715;2716 2718;2719 2727;2728 2730	proveedor de cuidados de
+T189	Action 2750 2761	diagnostica
+T190	Reference 2762 2767	estas
+T191	Concept 2768 2776	verrugas
+T192	Action 2780 2791	examinarlas
+R156	subject Arg1:T189 Arg2:T188
+R157	target Arg1:T189 Arg2:T190
+R158	target Arg1:T192 Arg2:T190
+R159	in-context Arg1:T189 Arg2:T192
+R160	is-a Arg1:T190 Arg2:T191
+T193	Concept 2793 2796	VIH
+T194	Concept 2807 2812;2813 2815;2816 2818;2819 2836;2837 2843	virus de la inmunodeficiencia humana
+*	same-as T194 T193
+T195	Action 2849 2859	trastornos
+T196	Concept 2864 2870;2871 2873;2874 2879	estado de ánimo
+T197	Concept 2884 2894	diferentes
+T198	Action 2902 2909	afectan
+T199	Concept 2912 2918	diario
+T200	Concept 2922 2928;2929 2938	estado emocional
+T201	Concept 2945 2952	persona
+R161	target Arg1:T195 Arg2:T196
+R162	in-time Arg1:T198 Arg2:T199
+R163	in-context Arg1:T200 Arg2:T201
+R164	target Arg1:T198 Arg2:T200
+R165	subject Arg1:T198 Arg2:T195
+R166	has-property Arg1:T195 Arg2:T197
+T202	Action 2957 2960	uso
+T203	Concept 2973 2986;2987 2989;2990 2995	preservativos de látex
+T204	Action 2996 3005	disminuye
+T205	Concept 3006 3017	enormemente
+T206	Action 3029 3036	elimina
+T207	Predicate 3041 3047	riesgo
+T208	Action 3051 3059	adquirir
+T209	Action 3062 3073	contagiarse
+T210	Concept 3077 3084	sífilis
+R167	in-context Arg1:T204 Arg2:T205
+R168	causes Arg1:T202 Arg2:T204
+R169	target Arg1:T202 Arg2:T203
+R170	target Arg1:T209 Arg2:T210
+R171	target Arg1:T208 Arg2:T210
+R172	arg Arg1:T207 Arg2:T208
+R173	arg Arg1:T207 Arg2:T209
+R174	target Arg1:T206 Arg2:T207
+R175	causes Arg1:T202 Arg2:T206
+R176	target Arg1:T204 Arg2:T207
+T211	Concept 3089 3093	niño
+T212	Concept 3094 3104	maltratado
+T213	Action 3111 3121	deprimirse
+R177	subject Arg1:T213 Arg2:T211
+R178	target Arg1:T213 Arg2:T211
+R179	in-context Arg1:T211 Arg2:T212
+T214	Reference 3123 3126	Los
+T215	Concept 3148 3157	alquitrán
+T216	Concept 3160 3169;3170 3172;3173 3179	productos de tabaco
+T217	Concept 3184 3192	aditivos
+T218	Concept 3200 3207	seguros
+R180	in-context Arg1:T216 Arg2:T217
+R181	has-property Arg1:T216 Arg2:T218
+R182	in-context Arg1:T214 Arg2:T215
+R183	has-property Arg1:T214 Arg2:T218
+T219	Action 3217 3224	Incluye
+T220	Concept 3225 3233	material
+T221	Reference 3255 3257	ti
+T222	Concept 3271 3277	padres
+T223	Predicate 3279 3285	acerca
+T224	Concept 3292 3297	salud
+T225	Concept 3303 3312	seguridad
+T226	Concept 3320 3332	adolescentes
+R184	target Arg1:T219 Arg2:T220
+R185	in-context Arg1:T219 Arg2:T221
+R186	in-context Arg1:T219 Arg2:T222
+R187	domain Arg1:T223 Arg2:T219
+R188	arg Arg1:T223 Arg2:T224
+R189	arg Arg1:T223 Arg2:T225
+R190	in-context Arg1:T225 Arg2:T226
+T227	Concept 3341 3353	medicamentos
+T228	Concept 3358 3364	receta
+T229	Action 3371 3378	alivian
+T230	Concept 3382 3387	dolor
+T231	Concept 3392 3398	médico
+T232	Action 3405 3414	indicarle
+T233	Predicate 3420 3423	más
+T234	Concept 3424 3430	fuerte
+R191	arg Arg1:T233 Arg2:T234
+R192	in-context Arg1:T227 Arg2:T228
+R193	subject Arg1:T229 Arg2:T227
+R194	target Arg1:T229 Arg2:T230
+R195	subject Arg1:T232 Arg2:T231
+R196	target Arg1:T232 Arg2:T233
+R197	entails Arg1:T227 Arg2:T232
+R198	domain Arg1:T233 Arg2:T227
+T235	Concept 3436 3443	médicos
+T236	Action 3444 3448	usan
+T237	Concept 3449 3456	pruebas
+T238	Action 3461 3469	examinan
+T239	Concept 3473 3476	ano
+T240	Action 3482 3496	diagnosticarlo
+R199	subject Arg1:T236 Arg2:T235
+R200	target Arg1:T236 Arg2:T237
+R201	subject Arg1:T238 Arg2:T237
+R202	target Arg1:T238 Arg2:T239
+R203	entails Arg1:T238 Arg2:T240
+T241	Concept 3501 3507	hígado
+T242	Action 3508 3515	produce
+T243	Concept 3519 3526	líquido
+T244	Concept 3527 3536	digestivo
+T245	Concept 3545 3550	bilis
+R204	in-context Arg1:T243 Arg2:T244
+R205	target Arg1:T242 Arg2:T243
+R206	subject Arg1:T242 Arg2:T241
+*	same-as T242 T245
+T246	Concept 3555 3567	fenilalanina
+T247	Predicate 3589 3594	todos
+T248	Concept 3599 3608	alimentos
+R207	domain Arg1:T247 Arg2:T248
+R208	part-of Arg1:T246 Arg2:T247
+T249	Concept 3614 3624	habitantes
+T250	Concept 3632 3639;3640 3646	Estados Unidos
+T251	Action 3647 3654	generan
+T252	Predicate 3655 3658;3659 3667	1,6 millones
+T253	Concept 3671 3680	toneladas
+T254	Concept 3684 3692	desechos
+T255	Concept 3693 3700	tóxicos
+T256	Concept 3701 3711	domésticos
+T257	Concept 3716 3719	año
+R209	subject Arg1:T251 Arg2:T249
+R210	domain Arg1:T252 Arg2:T254
+R211	in-time Arg1:T251 Arg2:T257
+R212	in-place Arg1:T249 Arg2:T250
+R213	target Arg1:T251 Arg2:T252
+R214	in-context Arg1:T254 Arg2:T255
+R215	in-context Arg1:T254 Arg2:T256
+R216	arg Arg1:T252 Arg2:T253
+T258	Predicate 3725 3730	señal
+T259	Concept 3731 3739	temprana
+T260	Concept 3743 3751	artritis
+T261	Concept 3752 3759	juvenil
+T262	Action 3770 3776	cojear
+T263	Concept 3785 3792	mañanas
+R217	in-time Arg1:T262 Arg2:T263
+R218	in-context Arg1:T258 Arg2:T259
+R219	arg Arg1:T258 Arg2:T260
+R220	is-a Arg1:T262 Arg2:T258
+R221	domain Arg1:T258 Arg2:T261
+R222	in-context Arg1:T260 Arg2:T261
+T264	Action 3811 3817	brotes
+T265	Concept 3822 3833	chikungunya
+T266	Concept 3837 3843	África
+T267	Concept 3845 3849	Asia
+T268	Concept 3851 3857	Europa
+T269	Concept 3863 3870	océanos
+T270	Concept 3871 3877	Índico
+T271	Concept 3880 3888	Pacífico
+T272	Concept 3893 3899	Caribe
+T273	Concept 3902 3909;3910 3917	América Central
+T274	Concept 3902 3909;3920 3923;3924 3927	América del Sur
+R223	is-a Arg1:T270 Arg2:T269
+R224	is-a Arg1:T271 Arg2:T269
+R225	subject Arg1:T264 Arg2:T265
+R226	in-place Arg1:T264 Arg2:T266
+R227	in-place Arg1:T264 Arg2:T267
+R228	in-place Arg1:T264 Arg2:T268
+R229	in-place Arg1:T264 Arg2:T270
+R230	in-place Arg1:T264 Arg2:T271
+R231	in-place Arg1:T264 Arg2:T272
+R232	in-place Arg1:T264 Arg2:T274
+R233	in-place Arg1:T264 Arg2:T273
+T275	Concept 3933 3943	prematuros
+T276	Action 3944 3953	necesitan
+T277	Concept 3954 3962;3963 3969	atención médica
+T278	Concept 3970 3978	especial
+T279	Concept 3986 3992;3993 3995;3996 4004;4005 4015	unidad de cuidados intensivos
+T280	Concept 4016 4024	neonatal
+R234	in-context Arg1:T279 Arg2:T280
+R235	subject Arg1:T276 Arg2:T275
+R236	in-context Arg1:T277 Arg2:T278
+R237	target Arg1:T276 Arg2:T277
+R238	in-place Arg1:T276 Arg2:T279
+T281	Reference 4026 4029	Eso
+T282	Action 4030 4036	limita
+T283	Action 4040 4045	flujo
+T284	Concept 4049 4055	sangre
+T285	Predicate 4056 4060	rica
+T286	Concept 4064 4071	oxígeno
+R239	domain Arg1:T285 Arg2:T284
+R240	arg Arg1:T285 Arg2:T286
+R241	target Arg1:T283 Arg2:T285
+R242	subject Arg1:T282 Arg2:T281
+R243	target Arg1:T282 Arg2:T283
+T287	Action 4076 4079	hay
+T288	Concept 4083 4089	examen
+T289	Concept 4093 4104	diagnóstico
+T290	Concept 4105 4115	específico
+R244	in-context Arg1:T288 Arg2:T289
+R245	in-context Arg1:T288 Arg2:T290
+R246	target Arg1:T287 Arg2:T288
+T291	Action 4120 4131	eliminación
+T292	Predicate 4132 4133;4134 4140	a través
+T293	Concept 4145 4150	recto
+T294	Concept 4160 4171	flatulencia
+*	same-as T294 T291
+R247	arg Arg1:T292 Arg2:T293
+R248	in-place Arg1:T291 Arg2:T292
+T295	Action 4181 4186	ayuda
+T296	Concept 4190 4196	hígado
+T297	Action 4199 4209	deshacerse
+T298	Concept 4213 4220	toxinas
+T299	Concept 4223 4231	desechos
+R249	subject Arg1:T297 Arg2:T296
+R250	target Arg1:T295 Arg2:T297
+R251	target Arg1:T297 Arg2:T298
+R252	target Arg1:T297 Arg2:T299
+T300	Concept 4242 4249	lugares
+T301	Concept 4250 4257	mojados
+T302	Concept 4260 4267	húmedos
+T303	Concept 4274 4278	casa
+T304	Concept 4301 4307	hongos
+R253	in-context Arg1:T300 Arg2:T301
+R254	in-context Arg1:T300 Arg2:T302
+R255	in-place Arg1:T300 Arg2:T303
+R256	causes Arg1:T300 Arg2:T304
+T305	Concept 4312 4315	VIH
+T306	Action 4322 4333	contagiarse
+T307	Action 4346 4356;4357 4365	relaciones sexuales
+T308	Concept 4370 4380	protección
+T309	Concept 4389 4396	persona
+T310	Action 4397 4406	infectada
+R257	target Arg1:T306 Arg2:T305
+R258	in-context Arg1:T307 Arg2:T308
+R259	target Arg1:T307 Arg2:T310
+R260	target Arg1:T310 Arg2:T309
+R261	subject Arg1:T310 Arg2:T305
+R262	causes Arg1:T307 Arg2:T306
+T311	Concept 4408 4409;4410 4416	A menudo
+T312	Action 4420 4427	causada
+T313	Concept 4432 4440;4441 4449	cálculos biliares
+R263	subject Arg1:T312 Arg2:T313
+R264	in-time Arg1:T312 Arg2:T311
+T314	Concept 4454 4458	daño
+T315	Concept 4459 4464	renal
+T316	Action 4465 4475	ocasionado
+T317	Concept 4483 4491	diabetes
+T318	Concept 4504 4514;4515 4524	nefropatía diabética
+R265	in-context Arg1:T314 Arg2:T315
+R266	subject Arg1:T316 Arg2:T317
+R267	target Arg1:T316 Arg2:T314
+*	same-as T316 T318
+T319	Concept 4536 4546	nutrientes
+T320	Concept 4559 4568	proteínas
+T321	Concept 4570 4583	carbohidratos
+T322	Concept 4585 4591	grasas
+T323	Concept 4593 4602	vitaminas
+T324	Concept 4604 4613	minerales
+T325	Concept 4619 4623	agua
+R268	is-a Arg1:T320 Arg2:T319
+R269	is-a Arg1:T321 Arg2:T319
+R270	is-a Arg1:T322 Arg2:T319
+R271	is-a Arg1:T323 Arg2:T319
+R272	is-a Arg1:T324 Arg2:T319
+R273	is-a Arg1:T325 Arg2:T319
+T326	Concept 4629 4637	síntomas
+T327	Concept 4638 4649	posteriores
+T328	Concept 4659 4662	tos
+T329	Concept 4665 4670;4671 4673;4674 4678	falta de aire
+R274	is-a Arg1:T328 Arg2:T326
+R275	is-a Arg1:T329 Arg2:T326
+R276	in-time Arg1:T326 Arg2:T327
+T330	Concept 4690 4697	persona
+T331	Action 4704 4712	contraer
+T332	Concept 4716 4725	infección
+T333	Concept 4735 4743	personas
+T334	Predicate 4744 4751	mayores
+T335	Concept 4784 4786;4787 4791	60 años
+T336	Predicate 4805 4811	riesgo
+R277	subject Arg1:T331 Arg2:T330
+R278	target Arg1:T331 Arg2:T332
+R279	arg Arg1:T334 Arg2:T335
+R280	arg Arg1:T336 Arg2:T331
+R281	domain Arg1:T334 Arg2:T333
+R282	has-property Arg1:T334 Arg2:T336
+T337	Concept 4823 4831;4832 4834;4835 4841	factores de riesgo
+T338	Concept 4855 4859;4860 4873	raza afroamericana
+T339	Concept 4879 4885	exceso
+T340	Concept 4889 4893	peso
+R283	is-a Arg1:T340 Arg2:T337
+R284	is-a Arg1:T338 Arg2:T337
+R285	in-context Arg1:T340 Arg2:T339
+T341	Concept 4899 4907	personas
+T342	Reference 4912 4914	la
+T343	Concept 4915 4925	enfermedad
+T344	Action 4926 4931	nacen
+T345	Predicate 4936 4939	dos
+T346	Concept 4940 4945	genes
+T347	Concept 4949 4956	células
+T348	Concept 4957 4968	falciformes
+T349	Predicate 4977 4981	cada
+T350	Concept 4982 4987	padre
+R286	in-context Arg1:T341 Arg2:T342
+R287	in-context Arg1:T347 Arg2:T348
+R288	subject Arg1:T344 Arg2:T341
+R289	in-context Arg1:T344 Arg2:T345
+R290	arg Arg1:T349 Arg2:T350
+R291	in-context Arg1:T345 Arg2:T349
+R292	is-a Arg1:T342 Arg2:T343
+R293	domain Arg1:T345 Arg2:T346
+R294	in-context Arg1:T346 Arg2:T347
+R295	domain Arg1:T349 Arg2:T346
+T351	Predicate 4989 4995	Varias
+T352	Concept 4996 5001	cosas
+T353	Action 5009 5016	afectar
+T354	Predicate 5021 5028	niveles
+T355	Concept 5032 5042	colesterol
+R296	arg Arg1:T354 Arg2:T355
+R297	target Arg1:T353 Arg2:T354
+R298	domain Arg1:T351 Arg2:T352
+R299	subject Arg1:T353 Arg2:T351
+T356	Predicate 5047 5054	mayoría
+T357	Concept 5062 5067	casos
+T358	Action 5071 5080	infección
+T359	Concept 5085 5087;5088 5092	E. coli
+T360	Action 5093 5100	mejoran
+T361	Concept 5105 5116	tratamiento
+T362	Predicate 5120 5125	cinco
+T363	Predicate 5128 5130	10
+T364	Concept 5131 5135	días
+R300	in-time Arg1:T360 Arg2:T362
+R301	in-context Arg1:T360 Arg2:T361
+R302	subject Arg1:T358 Arg2:T359
+R303	domain Arg1:T356 Arg2:T358
+R304	subject Arg1:T360 Arg2:T356
+R305	target Arg1:T358 Arg2:T357
+R306	in-time Arg1:T360 Arg2:T363
+R307	domain Arg1:T362 Arg2:T364
+R308	domain Arg1:T363 Arg2:T364
+R309	target Arg1:T360 Arg2:T356
+T365	Predicate 5140 5149	principal
+T366	Concept 5150 5156;5157 5159;5160 5166	factor de riesgo
+T367	Concept 5173 5183;5184 5192;5193 5203	enfermedad arterial periférica
+T368	Action 5210 5215	fumar
+R310	domain Arg1:T365 Arg2:T366
+*	same-as T368 T365
+R311	arg Arg1:T365 Arg2:T367
+T369	Action 5222 5236	estrechamiento
+T370	Predicate 5257 5263	centro
+T371	Concept 5270 5277	columna
+T372	Concept 5286 5293	canales
+T373	Concept 5331 5340	vértebras
+T374	Concept 5343 5349	huesos
+T375	Concept 5356 5363	columna
+R312	in-place Arg1:T369 Arg2:T370
+*	same-as T373 T374
+R313	domain Arg1:T370 Arg2:T371
+R314	in-place Arg1:T374 Arg2:T375
+R315	in-place Arg1:T369 Arg2:T373
+R316	in-place Arg1:T369 Arg2:T372
+R317	in-place Arg1:T372 Arg2:T371
+T376	Predicate 5365 5372	Algunos
+T377	Concept 5373 5382	ungüentos
+T378	Concept 5384 5390	cremas
+T379	Concept 5393 5402	enjuagues
+T380	Action 5410 5417	aliviar
+T381	Concept 5421 5426	dolor
+R318	domain Arg1:T376 Arg2:T377
+R319	domain Arg1:T376 Arg2:T378
+R320	domain Arg1:T376 Arg2:T379
+R321	subject Arg1:T380 Arg2:T376
+R322	target Arg1:T380 Arg2:T381
+T382	Concept 5432 5442	trastornos
+T383	Concept 5446 5456	desarrollo
+T384	Concept 5461 5470	problemas
+T385	Concept 5471 5478	severos
+T386	Concept 5484 5489	larga
+T387	Concept 5490 5498	duración
+R323	in-context Arg1:T382 Arg2:T383
+R324	in-context Arg1:T387 Arg2:T386
+R325	is-a Arg1:T382 Arg2:T384
+R326	has-property Arg1:T382 Arg2:T385
+R327	has-property Arg1:T382 Arg2:T387
+T388	Action 5500 5505	Tomar
+T389	Predicate 5506 5511	mucha
+T390	Concept 5512 5516	agua
+T391	Predicate 5520 5523;5524 5528;5529 5532	una sola vez
+T392	Action 5539 5545	llenar
+T393	Concept 5549 5557	estómago
+T394	Action 5568 5575	vomitar
+R328	domain Arg1:T389 Arg2:T390
+R329	causes Arg1:T388 Arg2:T392
+R330	target Arg1:T388 Arg2:T390
+R331	in-context Arg1:T388 Arg2:T391
+R332	domain Arg1:T391 Arg2:T389
+R333	target Arg1:T392 Arg2:T393
+R334	causes Arg1:T392 Arg2:T394
+T395	Concept 5581 5592;5593 5603	obstrucción intestinal
+T396	Concept 5621 5627	comida
+T397	Concept 5634 5639	heces
+T398	Action 5650 5655	salir
+T399	Concept 5660 5669	intestino
+R335	subject Arg1:T398 Arg2:T396
+R336	target Arg1:T398 Arg2:T399
+R337	subject Arg1:T398 Arg2:T397
+R338	entails Arg1:T398 Arg2:T395
+T400	Action 5675 5680	caída
+T401	Concept 5687 5692	atrás
+T402	Concept 5703 5713	superficie
+T403	Concept 5714 5718	dura
+T404	Action 5725 5735	resbalarse
+T405	Concept 5742 5747	hielo
+T406	Predicate 5755 5760	causa
+T407	Predicate 5761 5764	más
+T408	Concept 5765 5770	común
+T409	Reference 5774 5779	estos
+T410	Concept 5780 5792	traumatismos
+R339	in-context Arg1:T402 Arg2:T403
+R340	in-place Arg1:T400 Arg2:T402
+R341	in-context Arg1:T400 Arg2:T401
+R342	in-place Arg1:T404 Arg2:T405
+R343	is-a Arg1:T404 Arg2:T400
+R344	is-a Arg1:T405 Arg2:T402
+R345	causes Arg1:T400 Arg2:T409
+R346	is-a Arg1:T409 Arg2:T410
+R347	domain Arg1:T407 Arg2:T406
+R348	arg Arg1:T407 Arg2:T408
+R349	arg Arg1:T406 Arg2:T409
+*	same-as T400 T407
+T411	Predicate 5794 5801	Algunas
+T412	Concept 5802 5810	personas
+T413	Concept 5821 5829	síntomas
+R350	domain Arg1:T411 Arg2:T412
+R351	has-property Arg1:T411 Arg2:T413
+T414	Action 5845 5851	prueba
+T415	Concept 5852 5860	estándar
+T416	Concept 5869 5875	cáncer
+T417	Concept 5879 5887	próstata
+R352	in-context Arg1:T414 Arg2:T415
+R353	in-context Arg1:T416 Arg2:T417
+R354	target Arg1:T414 Arg2:T416
+T418	Concept 5893 5901	personas
+T419	Concept 5902 5909	mayores
+T420	Concept 5915 5922	jóvenes
+T421	Concept 5940 5950	enfermedad
+T422	Concept 5951 5958	crónica
+T423	Concept 5969 5975	riesgo
+R355	in-context Arg1:T418 Arg2:T419
+R356	in-context Arg1:T418 Arg2:T420
+R357	in-context Arg1:T421 Arg2:T422
+R358	in-context Arg1:T418 Arg2:T421
+R359	has-property Arg1:T418 Arg2:T423
+T424	Action 5989 5994	dosis
+T425	Predicate 5998 6005	algunas
+T426	Concept 6006 6015	vitaminas
+T427	Concept 6033 6042	problemas
+R360	domain Arg1:T425 Arg2:T426
+R361	target Arg1:T424 Arg2:T425
+R362	causes Arg1:T424 Arg2:T427
+T428	Concept 6047 6052	sodio
+T429	Concept 6054 6060	calcio
+T430	Concept 6062 6069	potasio
+T431	Concept 6071 6076	cloro
+T432	Concept 6078 6085	fosfato
+T433	Concept 6088 6096	magnesio
+T434	Concept 6101 6113	electrolitos
+R363	is-a Arg1:T433 Arg2:T434
+R364	is-a Arg1:T432 Arg2:T434
+R365	is-a Arg1:T431 Arg2:T434
+R366	is-a Arg1:T430 Arg2:T434
+R367	is-a Arg1:T429 Arg2:T434
+R368	is-a Arg1:T428 Arg2:T434
+T435	Concept 6118 6126	síndrome
+T436	Concept 6137 6144	difícil
+T437	Action 6148 6160	diagnosticar
+R369	in-context Arg1:T437 Arg2:T436
+R370	target Arg1:T437 Arg2:T435
+T438	Concept 6168 6175	proceso
+T439	Concept 6184 6192;6193 6200	recambio celular
+T440	Concept 6206 6213	células
+T441	Concept 6220 6224	piel
+T442	Action 6229 6235	crecen
+T443	Predicate 6248 6251	más
+T444	Concept 6252 6260	profunda
+T445	Concept 6267 6271	piel
+T446	Action 6272 6279	avanzan
+T447	Concept 6289 6299	superficie
+R371	target Arg1:T446 Arg2:T447
+R372	is-a Arg1:T439 Arg2:T438
+R373	domain Arg1:T443 Arg2:T445
+R374	arg Arg1:T443 Arg2:T444
+R375	in-place Arg1:T442 Arg2:T443
+R376	subject Arg1:T442 Arg2:T440
+R377	subject Arg1:T446 Arg2:T440
+*	same-as T439 T446
+R378	in-place Arg1:T440 Arg2:T441
+T448	Concept 6320 6331	tratamiento
+T449	Concept 6340 6347	cirugía
+R379	part-of Arg1:T449 Arg2:T448
+T450	Action 6349 6355	Ocurre
+T451	Concept 6362 6369;6370 6379	columna vertebral
+T452	Concept 6384 6388	feto
+T453	Action 6395 6401	cierra
+T454	Concept 6402 6415	completamente
+T455	Predicate 6427 6433	primer
+T456	Concept 6434 6437	mes
+T457	Concept 6441 6449	embarazo
+R380	in-place Arg1:T451 Arg2:T452
+R381	in-context Arg1:T453 Arg2:T454
+R382	arg Arg1:T455 Arg2:T456
+R383	in-time Arg1:T453 Arg2:T455
+R384	subject Arg1:T453 Arg2:T451
+R385	entails Arg1:T453 Arg2:T450
+R386	in-time Arg1:T456 Arg2:T457
+T458	Concept 6454 6462	nicotina
+T459	Concept 6470 6475	droga
+T460	Concept 6486 6494	adictiva
+T461	Action 6499 6508	dificulta
+T462	Action 6518 6526	consumir
+T463	Concept 6530 6536	tabaco
+R387	has-property Arg1:T459 Arg2:T460
+R388	is-a Arg1:T458 Arg2:T459
+R389	subject Arg1:T461 Arg2:T458
+R390	target Arg1:T461 Arg2:T462
+R391	target Arg1:T462 Arg2:T463
+T464	Concept 6542 6549;6557 6559;6560 6563	cuadros de tos
+T465	Concept 6550 6556	agudos
+T466	Concept 6611 6618	resfrío
+T467	Concept 6625 6630	gripe
+R392	causes Arg1:T466 Arg2:T464
+R393	causes Arg1:T467 Arg2:T464
+R394	in-context Arg1:T464 Arg2:T465
+T468	Action 6642 6656	sobrevivientes
+T469	Concept 6660 6666	cáncer
+T470	Action 6685 6696	seguimiento
+R395	entails Arg1:T468 Arg2:T470
+R396	target Arg1:T470 Arg2:T468
+R397	target Arg1:T468 Arg2:T469
+T471	Concept 6708 6715	benigno
+T472	Concept 6720 6729	canceroso
+T473	Concept 6733 6740	maligno
+T474	Concept 6742 6751	canceroso
+*	same-as T471 T472
+*	same-as T473 T474
+T475	Concept 6757 6768	tratamiento
+T476	Concept 6776 6781	niños
+T477	Action 6793 6802	diferente
+T478	Concept 6825 6832	adultos
+R398	in-place Arg1:T475 Arg2:T476
+R399	subject Arg1:T477 Arg2:T475
+R400	in-place Arg1:T475 Arg2:T478
+T479	Predicate 6834 6841	Algunos
+T480	Concept 6842 6849	agentes
+T481	Concept 6850 6861	infecciosos
+T482	Concept 6871 6874	VIH
+T483	Action 6883 6893	sobrevivir
+T484	Concept 6900 6906	sangre
+T485	Action 6909 6917	infectar
+T486	Concept 6923 6930	persona
+T487	Action 6940 6950	recibiendo
+T488	Concept 6954 6965	transfusión
+R401	in-context Arg1:T480 Arg2:T481
+R402	is-a Arg1:T482 Arg2:T480
+R403	subject Arg1:T483 Arg2:T482
+R404	in-place Arg1:T483 Arg2:T484
+R405	subject Arg1:T485 Arg2:T482
+R406	subject Arg1:T487 Arg2:T486
+R407	target Arg1:T487 Arg2:T488
+R408	target Arg1:T485 Arg2:T487
+R409	domain Arg1:T479 Arg2:T480
+R410	subject Arg1:T483 Arg2:T479
+R411	subject Arg1:T485 Arg2:T479
+T489	Predicate 6984 6987;6988 6990;6991 6995;6996 6998	una de cada 10
+T490	Concept 6999 7007	personas
+T491	Predicate 7008 7015	mayores
+T492	Concept 7019 7021;7022 7026	18 años
+T493	Concept 7037 7046	trastorno
+T494	Concept 7051 7057;7058 7060;7061 7066	estado de ánimo
+R412	domain Arg1:T491 Arg2:T490
+R413	arg Arg1:T491 Arg2:T492
+R414	domain Arg1:T489 Arg2:T491
+R415	in-context Arg1:T493 Arg2:T494
+R416	has-property Arg1:T489 Arg2:T493
+T495	Concept 7082 7087	orina
+T496	Action 7094 7103	estancada
+T497	Action 7106 7112	vuelve
+T498	Concept 7139 7148;7149 7157	infección urinaria
+R417	subject Arg1:T497 Arg2:T495
+R418	target Arg1:T496 Arg2:T495
+R419	causes Arg1:T497 Arg2:T498
+R420	causes Arg1:T496 Arg2:T498
+T499	Concept 7162 7171;7172 7175;7176 7184;7185 7195;7196 7201	trastorno del espectro alcohólico fetal
+T500	Action 7202 7206	dura
+T501	Concept 7215 7219	vida
+R421	subject Arg1:T499 Arg2:T500
+R422	target Arg1:T500 Arg2:T499
+R423	in-time Arg1:T500 Arg2:T501
+T502	Concept 7225 7235	frecuencia
+T503	Action 7248 7256	extirpar
+T504	Concept 7260 7265	tumor
+R424	target Arg1:T503 Arg2:T504
+R425	in-context Arg1:T503 Arg2:T502
+T505	Concept 7271 7282	mastectomía
+T506	Concept 7290 7297	cirugía
+T507	Action 7303 7311	extirpar
+T508	Concept 7315 7319	seno
+R426	subject Arg1:T507 Arg2:T506
+R427	target Arg1:T507 Arg2:T508
+*	same-as T505 T507
+T509	Concept 7325 7334	proteínas
+T510	Action 7335 7341	mueven
+T511	Concept 7342 7351	moléculas
+T512	Action 7372 7382	construyen
+T513	Concept 7383 7394	estructuras
+T514	Action 7396 7407	descomponen
+T515	Concept 7408 7415	toxinas
+T516	Action 7418 7426	realizan
+T517	Predicate 7433 7438	tipos
+T518	Concept 7442 7448;7449 7451;7452 7465	tareas de mantenimiento
+R428	domain Arg1:T517 Arg2:T518
+R429	target Arg1:T510 Arg2:T511
+R430	subject Arg1:T510 Arg2:T509
+R431	subject Arg1:T512 Arg2:T509
+R432	target Arg1:T512 Arg2:T513
+R433	subject Arg1:T514 Arg2:T509
+R434	target Arg1:T514 Arg2:T515
+R435	subject Arg1:T516 Arg2:T509
+R436	target Arg1:T516 Arg2:T518
+R437	is-a Arg1:T510 Arg2:T517
+R438	is-a Arg1:T512 Arg2:T517
+R439	is-a Arg1:T514 Arg2:T517
+T519	Concept 7470 7476;7477 7488	cáncer colorrectal
+T520	Concept 7507 7514	tumores
+T521	Action 7518 7524	forman
+T522	Concept 7531 7544	revestimiento
+T523	Concept 7549 7558;7559 7565	intestino grueso
+R440	in-place Arg1:T522 Arg2:T523
+R441	target Arg1:T521 Arg2:T520
+R442	in-place Arg1:T521 Arg2:T522
+R443	causes Arg1:T521 Arg2:T519
+T524	Concept 7573 7582	problemas
+T525	Predicate 7583 7585;7586 7589;7590 7592;7593 7599	de vez en cuando
+T526	Concept 7603 7613;7614 7620	disfunción sexual
+T527	Concept 7624 7629	común
+T528	Action 7652 7657	duran
+T529	Predicate 7658 7661	más
+T530	Predicate 7665 7669	unos
+T531	Concept 7670 7675	meses
+T532	Action 7686 7694	angustia
+T533	Concept 7698 7703	usted
+T534	Concept 7712 7718	pareja
+T535	Action 7725 7731	acudir
+T536	Concept 7737 7748;7749 7751;7752 7754;7755 7760	profesional de la salud
+R444	domain Arg1:T530 Arg2:T531
+R445	arg Arg1:T529 Arg2:T530
+R446	in-time Arg1:T528 Arg2:T529
+R447	target Arg1:T532 Arg2:T533
+R448	target Arg1:T535 Arg2:T536
+R449	subject Arg1:T528 Arg2:T526
+R450	subject Arg1:T532 Arg2:T526
+R451	entails Arg1:T528 Arg2:T535
+R452	target Arg1:T532 Arg2:T534
+R453	is-a Arg1:T526 Arg2:T524
+R454	in-time Arg1:T526 Arg2:T525
+R455	has-property Arg1:T526 Arg2:T527
+R456	entails Arg1:T532 Arg2:T535
+T537	Action 7776 7783	ocurrir
+T538	Concept 7797 7807;7808 7816	relaciones sexuales
+R457	in-context Arg1:T537 Arg2:T538
+T539	Concept 7822 7829	tumores
+T540	Concept 7841 7851	cancerosos
+T541	Concept 7854 7862	benignos
+R458	has-property Arg1:T539 Arg2:T540
+R459	has-property Arg1:T539 Arg2:T541
+T542	Concept 7867 7873	sepsis
+T543	Concept 7881 7891	enfermedad
+T544	Concept 7892 7897	grave
+R460	is-a Arg1:T542 Arg2:T543
+R461	has-property Arg1:T542 Arg2:T544
+T545	Concept 7907 7910	dos
+T546	Predicate 7911 7916	tipos
+T547	Concept 7918 7923	agudo
+T548	Concept 7926 7933	crónico
+R462	is-a Arg1:T547 Arg2:T546
+R463	is-a Arg1:T548 Arg2:T546
+R464	arg Arg1:T546 Arg2:T545
+T549	Action 7939 7950	dislocación
+T550	Concept 7954 7960	hombro
+T551	Concept 7963 7969	rótula
+T552	Action 7989 7999	dislocarse
+T553	Concept 8004 8012	adelante
+R465	in-time Arg1:T552 Arg2:T553
+R466	target Arg1:T549 Arg2:T550
+R467	target Arg1:T549 Arg2:T551
+R468	subject Arg1:T552 Arg2:T549
+T554	Concept 8018 8026	personas
+T555	Predicate 8027 8030	con
+T556	Concept 8031 8034	TOC
+T557	Action 8036 8042	tienen
+T558	Concept 8043 8055	pensamientos
+T559	Concept 8056 8065	repetidos
+T560	Concept 8068 8080	angustiantes
+T561	Concept 8093 8103	obsesiones
+R469	domain Arg1:T555 Arg2:T554
+R470	arg Arg1:T555 Arg2:T556
+R471	target Arg1:T557 Arg2:T558
+*	same-as T558 T561
+R472	subject Arg1:T557 Arg2:T555
+R473	in-context Arg1:T558 Arg2:T559
+R474	in-context Arg1:T558 Arg2:T560
+T562	Concept 8108 8115	cabello
+T563	Action 8116 8121	crece
+T564	Predicate 8133 8143	superficie
+T565	Concept 8148 8154	cuerpo
+T566	Concept 8168 8174	labios
+T567	Concept 8180 8186;8187 8189;8190 8193;8194 8199	palmas de las manos
+T568	Concept 8206 8213;8214 8216;8217 8220;8221 8225	plantas de los pies
+R475	domain Arg1:T564 Arg2:T565
+R476	subject Arg1:T563 Arg2:T562
+R477	in-place Arg1:T563 Arg2:T564
+R478	in-place Arg1:T563 Arg2:T566
+R479	in-place Arg1:T563 Arg2:T567
+R480	in-place Arg1:T563 Arg2:T568
+T569	Concept 8231 8240	mosquitos
+T570	Concept 8245 8253	insectos
+T571	Action 8258 8263	viven
+T572	Concept 8275 8280	mundo
+R481	is-a Arg1:T569 Arg2:T570
+R482	subject Arg1:T571 Arg2:T569
+R483	in-place Arg1:T571 Arg2:T572
+T573	Concept 8310 8320	daltonismo
+T574	Concept 8324 8332	genético
+R484	has-property Arg1:T573 Arg2:T574

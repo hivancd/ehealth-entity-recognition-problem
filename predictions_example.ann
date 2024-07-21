@@ -1,0 +1,117 @@
+T1	Predicate 0 50 Todas las personas de seis meses de edad o mayores
+T2	Action 57 66 vacunarse
+T3	Action 72 81 temporada
+T4	Concept 92 97 gripe
+T5	Concept 103 113 talasemias
+T6	Predicate 143 175 personas de ascendencia italiana
+T7	Predicate 177 183 griega
+T8	Concept 189 202 Medio Oriente
+T9	Concept 208 219 sur de Asia
+T10	Predicate 222 230 africana
+T11	Action 232 251 Beber mucho líquido
+T12	Action 253 262 descansar
+T13	Action 263 264 y
+T14	Action 265 282 tomar analgésicos
+T15	Action 283 286 sin
+T16	Predicate 287 295 aspirina
+T17	Action 296 308 puede ayudar
+T18	Predicate 313 321 insulina
+T19	Concept 329 336 hormona
+T20	Action 341 346 ayuda
+T21	Concept 352 359 glucosa
+T22	Action 362 368 entrar
+T23	Concept 375 382 células
+T24	Concept 395 402 energía
+T25	Concept 404 421 El útero o matriz
+T26	Concept 457 461 bebé
+T27	Predicate 473 478 mujer
+T28	Concept 484 494 embarazada
+T29	Concept 496 534 El síndrome de dolor regional complejo
+T30	Concept 541 567 trastorno de dolor crónico
+T31	Predicate 572 588 implante coclear
+T32	Concept 595 618 dispositivo electrónico
+T33	Concept 619 626 pequeño
+T34	Concept 629 637 complejo
+T35	Action 648 654 ayudar
+T36	Action 657 669 proporcionar
+T37	Concept 676 683 sentido
+T38	Concept 690 698 audición
+T39	Concept 700 711 Las piernas
+T40	Concept 731 737 huesos
+T41	Concept 739 755 vasos sanguíneos
+T42	Concept 757 765 músculos
+T43	Concept 774 792 tejidos conectivos
+T44	Action 794 834 Aproximadamente 1 de cada 5.000 personas
+T45	Concept 841 844 EDS
+T46	Predicate 846 862 Algunas personas
+T47	Concept 878 895 ataque de vértigo
+T48	Action 896 912 de vez en cuando
+T49	Concept 934 941 ataques
+T50	Action 970 981 varios días
+T51	Concept 990 998 gérmenes
+T52	Concept 1016 1021 nariz
+T53	Concept 1030 1038 garganta
+T54	Concept 1043 1047 niño
+T55	Action 1049 1076 probablemente no se enferme
+T56	Concept 1078 1112 El tejido que recubre los pulmones
+T57	Concept 1117 1125 estómago
+T58	Concept 1127 1137 el corazón
+T59	Concept 1146 1153 órganos
+T60	Concept 1163 1172 mesotelio
+T61	Concept 1177 1196 trastorno de pánico
+T62	Concept 1203 1207 tipo
+T63	Concept 1211 1220 trastorno
+T64	Concept 1224 1232 ansiedad
+T65	Concept 1237 1242 virus
+T66	Concept 1246 1256 contagioso
+T67	Concept 1265 1276 diseminarse
+T68	Action 1280 1297 persona a persona
+T69	Concept 1313 1324 convertirse
+T70	Concept 1328 1345 síndrome de shock
+T71	Concept 1350 1356 dengue
+T72	Concept 1367 1382 sangrado masivo
+T73	Concept 1385 1390 shock
+T74	Concept 1396 1408 tratamientos
+T75	Predicate 1418 1424 cremas
+T76	Predicate 1426 1435 medicinas
+T77	Predicate 1438 1449 fototerapia
+T78	Action 1451 1465 Dejar de fumar
+T79	Action 1466 1467 y
+T80	Action 1468 1497 evitar el consumo del alcohol
+T81	Action 1498 1510 puede ayudar
+T82	Concept 1538 1546 tobillos
+T83	Concept 1548 1555 talones
+T84	Concept 1557 1565 rodillas
+T85	Concept 1567 1574 muñecas
+T86	Concept 1576 1581 dedos
+T87	Concept 1584 1589 codos
+T88	Concept 1599 1609 embarazada
+T89	Concept 1614 1621 sífilis
+T90	Concept 1635 1654 defectos congénitos
+T91	Concept 1657 1664 abortos
+T92	Action 1666 1678 Pero a veces
+T93	Concept 1683 1691 gérmenes
+T94	Concept 1704 1712 pulmones
+T95	Concept 1718 1736 torrente sanguíneo
+T96	Predicate 1751 1754 Hib
+T97	Concept 1768 1784 problemas graves
+T98	Concept 1793 1803 meningitis
+T99	Concept 1809 1817 neumonía
+T100	Predicate 1819 1824 LASIK
+T101	Concept 1827 1850 queratomileusis in situ
+T102	Concept 1851 1859 asistida
+T103	Predicate 1864 1875 rayos láser
+T104	Action 1878 1903 es una de las más comunes
+T105	Concept 1909 1918 dos tipos
+T106	Concept 1920 1927 grupo A
+T107	Concept 1930 1937 grupo B
+T108	Concept 1939 1945 Ocurre
+T109	Concept 1953 1962 el cuerpo
+T110	Concept 1984 1993 respuesta
+T111	Concept 1994 2005 inmunitaria
+T112	Concept 2008 2011 una
+T113	Concept 2012 2032 infección bacteriana
+T114	Action 2036 2051 muchas personas
+T115	Concept 2056 2066 avergüenza
+T116	Action 2067 2073 hablar
+T117	Concept 2084 2103 problemas rectales

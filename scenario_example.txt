@@ -1,0 +1,20 @@
+T1	Concept 2108 2117 hemorroides
+T2	Concept 2121 2130 venas
+T3	Concept 2132 2140 hinchadas
+T4	Concept 2142 2152 inflamadas
+T5	Concept 2157 2163 ano
+T6	Concept 2167 2174 parte
+T6	Predicate 287 295 aspirina
+T7	Action 296 308 puede ayudar
+T8	Predicate 313 321 insulina
+T9	Concept 329 336 hormona
+T10	Action 341 346 ayuda
+T11	Concept 352 359 glucosa
+T12	Action 362 368 entrar
+T13	Concept 375 382 células
+T14	Concept 395 402 energía
+T15	Concept 404 421 El útero o matriz
+T16	Concept 457 461 bebé
+T17	Predicate 473 478 mujer
+T18	Concept 484 494 embarazada
+T19	Concept 496 534 El síndrome de dolor regional complejo
